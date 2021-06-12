@@ -165,6 +165,7 @@ impl<'de, 'a, R: Read> serde::de::Deserializer<'de> for &'a mut Deserializer<R> 
     impl_deserialize_n!(u16, deserialize_u16, visit_u16);
     impl_deserialize_n!(u32, deserialize_u32, visit_u32);
     impl_deserialize_n!(u64, deserialize_u64, visit_u64);
+    impl_deserialize_n!(u128, deserialize_u128, visit_u128);
 
     impl_deserialize_n!(f32, deserialize_f32, visit_f32);
     impl_deserialize_n!(f64, deserialize_f64, visit_f64);

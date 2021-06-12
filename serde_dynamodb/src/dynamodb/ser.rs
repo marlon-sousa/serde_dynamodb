@@ -99,6 +99,7 @@ where
     impl_serialize_n!(u16, serialize_u16);
     impl_serialize_n!(u32, serialize_u32);
     impl_serialize_n!(u64, serialize_u64);
+    impl_serialize_n!(u128, serialize_u128);
     impl_serialize_n!(f32, serialize_f32);
     impl_serialize_n!(f64, serialize_f64);
 
